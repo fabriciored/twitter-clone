@@ -1,6 +1,15 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import { 
+   Container,
+   Header,
+   BackIcon,
+   ProfileInfo,
+   BottomMenu,
+   HomeIcon,
+   SearchIcon,
+   BellIcon,
+   EmailIcon } from './styles';
 
 function Main() {
   return (
@@ -18,12 +27,12 @@ function Main() {
 
           {/* <ProfilePage /> */}
           
-          {/* <BottomMenu>
-              <HomeIcon />
+          <BottomMenu>
+              <HomeIcon className="active" />
               <SearchIcon />
               <BellIcon />
               <EmailIcon />
-          </BottomMenu> */}
+          </BottomMenu>
       </Container>
   );
 }
