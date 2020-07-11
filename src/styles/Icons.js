@@ -4,7 +4,7 @@ export {
     Email,
     FavoriteBorder,
     ExitToApp,
-    Location,
+    LocationOn,
     Search
 } from 'styled-icons/material-outlined';
 export { Person, Cake, Favorite } from 'styled-icons/material';
