@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage } from './styles';
+import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton } from './styles';
 
 function ProfilePage() {
   return (
@@ -11,7 +11,7 @@ function ProfilePage() {
           </Banner>
 
           <ProfileData>
-              {/* <EditButton outlined>Editar Perfil</EditButton> */}
+              <EditButton outlined>Editar Perfil</EditButton>
 
               <h1>Fabrício</h1>
               <h2>@redthek1ng</h2>
